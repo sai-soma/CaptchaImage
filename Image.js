@@ -23,7 +23,8 @@ images.forEach((elem,index)=>{
             resetBtn.style.display="";
         }
         if (clickedTimes>2) {
-            alert("You Can only select 2 images")
+            alert("You Can only select 2 images");
+            window.location.reload();
         }
     })
 })
