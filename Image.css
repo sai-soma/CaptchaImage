@@ -1,21 +1,30 @@
-.img1 {
-content: url("https://picsum.photos/id/237/200/300");
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px; font-weight: bold;
 }
-.img2 {
-content: url("https://picsum.photos/seed/picsum/200/300");
+body{
+    background-image:url("https://wallpapercave.com/wp/wp3013540.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.img3 {
-content: url("https://picsum.photos/200/300?grayscale");
-
+.container{
+    display:inline;
+    flex-wrap: wrap;
 }
-.img4 {
-content: url("https://picsum.photos/200/300/");
+.container div{
+    display: inline;
 }
-.img5 {
-content: url("https://picsum.photos/200/300.jpg");
+img:hover{
+    border: 5px solid black;
 }
+button:hover{
+    background-color:white;
+    border: 1.8px solid black;
+}
+button{width: 95px;height: 35px;
+background-color: whitesmoke;}
 img {
-margin: 10px;
+margin: 25px;
 border: 5px solid #555;
 width: 10%;
 height: 250px;
